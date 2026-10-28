@@ -2,7 +2,8 @@
 (() => {
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
-  const img = (id, w = 900) => `https://images.unsplash.com/photo-${id}?w=${w}&q=75&auto=format&fit=crop`;
+  // Unsplash photo id, or a full image URL
+  const img = (id, w = 900) => id.startsWith('http') ? id : `https://images.unsplash.com/photo-${id}?w=${w}&q=75&auto=format&fit=crop`;
   const WA = ['966500539637', '966563723792'];
 
   /* ---------- content ---------- */
@@ -34,7 +35,7 @@
       ]
     },
     {
-      n: '03', cat: 'osp', icon: 'pencil-ruler', img: '1594915440248-1e419eba6611',
+      n: '03', cat: 'osp', icon: 'pencil-ruler', img: '1581092580497-e0d23cbdf1dc',
       tag: 'OSP Design',
       ar: { t: 'تصميم البنية التحتية', d: 'تصاميم مدنية وألياف بصرية لشبكات الاتصالات باستخدام معايير وبرامج تصميم متقدمة.' },
       en: { t: 'OSP Design – Civil & Fiber', d: 'Civil and fiber designs for telecom networks using advanced design standards and software.' },
@@ -49,7 +50,7 @@
       ]
     },
     {
-      n: '04', cat: 'net', icon: 'waypoints', img: '1660330589693-99889d60181e',
+      n: '04', cat: 'net', icon: 'waypoints', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Optical_fiber_fusion_splicing_-_USDA.jpg/960px-Optical_fiber_fusion_splicing_-_USDA.jpg',
       tag: 'ISP / FTTH, FTTx Services',
       ar: { t: 'الخدمات المدارة – تركيب الفايبر', d: 'خدمات FTTH / FTTx المدارة: توصيل الألياف للعملاء، التفعيل، والصيانة وفق مؤشرات أداء واتفاقيات مستوى خدمة.' },
       en: { t: 'FTTH, FTTx Managed Service', d: 'Managed FTTH / FTTx services: fiber to the customer, activation, and maintenance under KPIs and SLAs.' },

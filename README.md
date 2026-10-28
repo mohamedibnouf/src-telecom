@@ -26,4 +26,4 @@ assets/js/main.js
 assets/img/logo-mark.png
 ```
 
-الصور التوضيحية من [Unsplash](https://unsplash.com).
+الصور التوضيحية من [Unsplash](https://unsplash.com)، وصورة لحام الألياف من [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Optical_fiber_fusion_splicing_-_USDA.jpg) (ملكية عامة – USDA).
