@@ -8,7 +8,7 @@
   /* ---------- content ---------- */
   const SERVICES = [
     {
-      n: '01', cat: 'osp', icon: 'clipboard-check', img: '1621905251189-08b45d6a269e',
+      n: '01', cat: 'osp', icon: 'clipboard-check', img: '1760963301666-582b92218a19',
       tag: 'OSP Quality Consultations',
       ar: { t: 'استشارات الجودة', d: 'استشارات هندسية لفحص جودة أعمال البنية التحتية OSP.' },
       en: { t: 'OSP Quality Consultations', d: 'Engineering consultations of OSP quality inspection.' },
@@ -22,7 +22,7 @@
       ]
     },
     {
-      n: '02', cat: 'osp', icon: 'construction', img: '1504307651254-35680f356dfd',
+      n: '02', cat: 'osp', icon: 'construction', img: '1593436878396-e943a3cac98f',
       tag: 'OSP Implementation',
       ar: { t: 'تنفيذ البنية التحتية', d: 'خبرة واسعة في الأعمال المدنية والألياف NDP – UG – P2P – HO، وحلول تنفيذ متكاملة وفق المواصفات وفي الوقت المحدد مع مراعاة كاملة للجودة.' },
       en: { t: 'OSP Implementation – Civil & Fiber', d: 'Extensive experience in OSP civil / fiber works (NDP – UG – P2P – HO): integrated implementation to specification, on time, with full consideration of quality.' },
@@ -34,7 +34,7 @@
       ]
     },
     {
-      n: '03', cat: 'osp', icon: 'pencil-ruler', img: '1581092160562-40aa08e78837',
+      n: '03', cat: 'osp', icon: 'pencil-ruler', img: '1594915440248-1e419eba6611',
       tag: 'OSP Design',
       ar: { t: 'تصميم البنية التحتية', d: 'تصاميم مدنية وألياف بصرية لشبكات الاتصالات باستخدام معايير وبرامج تصميم متقدمة.' },
       en: { t: 'OSP Design – Civil & Fiber', d: 'Civil and fiber designs for telecom networks using advanced design standards and software.' },
@@ -49,7 +49,7 @@
       ]
     },
     {
-      n: '04', cat: 'net', icon: 'waypoints', img: '1520869562399-e772f042f422',
+      n: '04', cat: 'net', icon: 'waypoints', img: '1660330589693-99889d60181e',
       tag: 'ISP / FTTH, FTTx Services',
       ar: { t: 'الخدمات المدارة – تركيب الفايبر', d: 'خدمات FTTH / FTTx المدارة: توصيل الألياف للعملاء، التفعيل، والصيانة وفق مؤشرات أداء واتفاقيات مستوى خدمة.' },
       en: { t: 'FTTH, FTTx Managed Service', d: 'Managed FTTH / FTTx services: fiber to the customer, activation, and maintenance under KPIs and SLAs.' },
@@ -183,13 +183,13 @@
 
   const BANNER = [
     ['1558494949-ef010cbdcc31', 'مراكز البيانات', 'Data Centers'],
-    ['1504307651254-35680f356dfd', 'الأعمال المدنية', 'Civil Works'],
-    ['1520869562399-e772f042f422', 'الألياف البصرية', 'Fiber Optics'],
+    ['1593436878396-e943a3cac98f', 'الأعمال المدنية', 'Civil Works'],
+    ['1660330589693-99889d60181e', 'الألياف البصرية', 'Fiber Optics'],
     ['1473341304170-971dccb5ac1e', 'الطاقة والأبراج', 'Power & Towers'],
     ['1557597774-9d273605dfa9', 'أنظمة المراقبة', 'Surveillance'],
     ['1544197150-b99a580bb7a8', 'الكابلات المهيكلة', 'Structured Cabling'],
     ['1486406146926-c627a92ad1ab', 'المباني الذكية', 'Smart Buildings'],
-    ['1621905251189-08b45d6a269e', 'فرق فنية مؤهلة', 'Qualified Technicians']
+    ['1760963301666-582b92218a19', 'فرق فنية مؤهلة', 'Qualified Technicians']
   ];
 
   const UI = {
