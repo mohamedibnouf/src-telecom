@@ -2,8 +2,8 @@
 (() => {
   const $ = (s, r = document) => r.querySelector(s);
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
-  // Unsplash photo id, or a full image URL
-  const img = (id, w = 900) => id.startsWith('http') ? id : `https://images.unsplash.com/photo-${id}?w=${w}&q=75&auto=format&fit=crop`;
+  // Unsplash photo id, or a local image path
+  const img = (id, w = 900) => id.includes('/') ? id : `https://images.unsplash.com/photo-${id}?w=${w}&q=75&auto=format&fit=crop`;
   const WA = ['966500539637', '966563723792'];
 
   /* ---------- content ---------- */
@@ -50,7 +50,7 @@
       ]
     },
     {
-      n: '04', cat: 'net', icon: 'waypoints', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Optical_fiber_fusion_splicing_-_USDA.jpg/960px-Optical_fiber_fusion_splicing_-_USDA.jpg',
+      n: '04', cat: 'net', icon: 'waypoints', img: 'assets/img/ftth-fiber-splicing.jpg',
       tag: 'ISP / FTTH, FTTx Services',
       ar: { t: 'الخدمات المدارة – تركيب الفايبر', d: 'خدمات FTTH / FTTx المدارة: توصيل الألياف للعملاء، التفعيل، والصيانة وفق مؤشرات أداء واتفاقيات مستوى خدمة.' },
       en: { t: 'FTTH, FTTx Managed Service', d: 'Managed FTTH / FTTx services: fiber to the customer, activation, and maintenance under KPIs and SLAs.' },

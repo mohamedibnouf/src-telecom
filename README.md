@@ -24,6 +24,7 @@ index.html
 assets/css/style.css
 assets/js/main.js
 assets/img/logo-mark.png
+assets/img/ftth-fiber-splicing.jpg
 ```
 
-الصور التوضيحية من [Unsplash](https://unsplash.com)، وصورة لحام الألياف من [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Optical_fiber_fusion_splicing_-_USDA.jpg) (ملكية عامة – USDA).
+الصور التوضيحية من [Unsplash](https://unsplash.com).
